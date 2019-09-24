@@ -1,0 +1,32 @@
+platform :ios, '9.0'
+use_frameworks!
+target 'swiftDemo' do
+    
+    #自动布局
+    pod 'SnapKit'
+    #网络请求
+    pod 'Alamofire', '~> 4.8.0'
+    pod 'Moya'
+    #json转model
+    pod 'SwiftyJSON'
+    pod 'HandyJSON', '5.0.0-beta.1'
+    #加载网络图片
+    pod 'Kingfisher'
+    #日历
+    pod 'CVCalendar'
+    #加载网络图片
+    pod 'AlamofireImage'
+    #分页控制多个子控制器
+    pod 'DNSPageView'
+    #上下拉刷新
+    pod 'MJRefresh'
+    #滚动页
+    pod 'LTScrollView'
+    #网络音频播放器
+    pod 'StreamingKit'
+    #图片循环滚动
+    pod 'FSPagerView'
+    #弱提示
+    pod 'MBProgressHUD'
+    
+end
