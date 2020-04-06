@@ -14,7 +14,7 @@ class ThreeViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor.purple
-        self.title = "里"
+        self.title = "3"
     }
     
     override func viewDidAppear(_ animated: Bool) {

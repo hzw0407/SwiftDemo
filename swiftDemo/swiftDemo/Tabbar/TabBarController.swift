@@ -20,7 +20,7 @@ class TabBarController: UITabBarController {
         
         let first: FirstViewController = FirstViewController()
         let rootNavOne = UINavigationController(rootViewController: first)
-        rootNavOne.tabBarItem.title = "腾"
+        rootNavOne.tabBarItem.title = "1"
         var normalIMageOne = UIImage(named: "firstNormal")
         //始终绘制图片原始状态，不使用Tint Color 不然绘制出来的会是灰色
         normalIMageOne = normalIMageOne!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
@@ -32,7 +32,7 @@ class TabBarController: UITabBarController {
         
         let second: SecondViewController = SecondViewController()
         let rootNavTwo = UINavigationController(rootViewController: second)
-        rootNavTwo.tabBarItem.title = "千"
+        rootNavTwo.tabBarItem.title = "2"
         var normalIMageTwo = UIImage(named: "secondNormal")
         //始终绘制图片原始状态，不使用Tint Color 不然绘制出来的会是灰色
         normalIMageTwo = normalIMageTwo!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
@@ -44,7 +44,7 @@ class TabBarController: UITabBarController {
         
         let three: ThreeViewController = ThreeViewController()
         let rootNavThree = UINavigationController(rootViewController: three)
-        rootNavThree.tabBarItem.title = "里"
+        rootNavThree.tabBarItem.title = "3"
         var normalIMageThree = UIImage(named: "threeNormal")
         //始终绘制图片原始状态，不使用Tint Color 不然绘制出来的会是灰色
         normalIMageThree = normalIMageThree!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
@@ -56,7 +56,7 @@ class TabBarController: UITabBarController {
         
         let four: FourViewController = FourViewController()
         let rootNavFour = UINavigationController(rootViewController: four)
-        rootNavFour.tabBarItem.title = "牛"
+        rootNavFour.tabBarItem.title = "4"
         var normalIMageFour = UIImage(named: "fourNormal")
         //始终绘制图片原始状态，不使用Tint Color 不然绘制出来的会是灰色
         normalIMageFour = normalIMageFour!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
@@ -68,7 +68,7 @@ class TabBarController: UITabBarController {
         
         let five: FiveViewController = FiveViewController()
         let rootNavFive = UINavigationController(rootViewController: five)
-        rootNavFive.tabBarItem.title = "批"
+        rootNavFive.tabBarItem.title = "5"
         var normalIMageFive = UIImage(named: "fiveNormal")
         //始终绘制图片原始状态，不使用Tint Color 不然绘制出来的会是灰色
         normalIMageFive = normalIMageFive!.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)

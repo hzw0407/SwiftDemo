@@ -14,7 +14,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor.white
-        self.title = "千"
+        self.title = "2"
         
     }
     

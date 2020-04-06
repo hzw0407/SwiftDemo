@@ -14,7 +14,7 @@ class FourViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor.green
-        self.title = "牛"
+        self.title = "4"
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -133,7 +133,7 @@
 
 /* Begin PBXFileReference section */
 		516FB1E59A10DA0CB8B8A7CC /* Pods_swiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C0A6EAC218C397F00535BD6 /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0A6EAC218C397F00535BD6 /* 喜马拉雅swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "喜马拉雅swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C0A6EAF218C397F00535BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C0A6EB4218C398000535BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C0A6EB6218C398200535BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -346,7 +346,7 @@
 		7C0A6EAD218C397F00535BD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C0A6EAC218C397F00535BD6 /* swiftDemo.app */,
+				7C0A6EAC218C397F00535BD6 /* 喜马拉雅swift.app */,
 				7C0A6EC0218C398300535BD6 /* swiftDemoTests.xctest */,
 				7C0A6ECB218C398300535BD6 /* swiftDemoUITests.xctest */,
 			);
@@ -984,7 +984,7 @@
 			);
 			name = swiftDemo;
 			productName = swiftDemo;
-			productReference = 7C0A6EAC218C397F00535BD6 /* swiftDemo.app */;
+			productReference = 7C0A6EAC218C397F00535BD6 /* 喜马拉雅swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7C0A6EBF218C398300535BD6 /* swiftDemoTests */ = {
@@ -1419,7 +1419,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.www.swiftDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "喜马拉雅swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "swiftDemo/swiftDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
@@ -1443,7 +1443,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.www.swiftDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "喜马拉雅swift";
 				SWIFT_OBJC_BRIDGING_HEADER = "swiftDemo/swiftDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

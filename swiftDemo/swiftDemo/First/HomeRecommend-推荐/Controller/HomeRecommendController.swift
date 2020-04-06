@@ -266,7 +266,7 @@ extension HomeRecommendController: UICollectionViewDelegate,UICollectionViewData
             return 1
         case 1:
             //功能九宫格
-            return 10
+            return (self.viewModel.squareList?.count) ?? 0
         case 2:
             //猜你喜欢
             return (self.viewModel.guessLikeList?.count) ?? 0

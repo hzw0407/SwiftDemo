@@ -16,7 +16,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "腾"
+        self.title = "1"
         self.view.backgroundColor = UIColor.white
         
         self.creatPage()

@@ -29,7 +29,7 @@ class FiveViewController: UIViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor.white
-        self.title = "批"
+        self.title = "5"
         
         let leftButton:UIButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 44))
         leftButton.frame = CGRect(x: 0, y: 0, width: 40, height: 44)
